@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:layout_margin="20dp"
+
+    android:gravity="center"
+    tools:context="ng.com.babbangona.kymapp.AccountDetails">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Account Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/account_name"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Account Number"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t1"
+                android:inputType="number"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t2"
+                android:inputType="number"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="-"
+                android:maxLength="1"
+                android:id="@+id/t10"
+                android:inputType="number"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t3"
+                android:gravity="center"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t4"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t5"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t6"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t7"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:inputType="number"
+                android:id="@+id/t8"
+                android:gravity="center"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t9"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Bank"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bank"/>
+
+
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/finish_verification"
+        style="@style/allHomeButtons"
+        android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Save"
+        android:background="@drawable/green_background_button"
+        />
+
+
+
+</LinearLayout>

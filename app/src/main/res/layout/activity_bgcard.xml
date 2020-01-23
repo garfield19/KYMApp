@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:layout_margin="20dp"
+
+    android:gravity="center"
+    tools:context="ng.com.babbangona.kymapp.OldOrNew">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Were you previously given a BG Card?"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/yes_card"
+        style="@style/allHomeButtons"
+        android:layout_width="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="YES"
+        android:background="@drawable/green_background_button"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/no_card"
+        style="@style/seccondHomeButtons"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="NO"
+        android:background="@drawable/inverted_background"
+        />
+
+
+
+</LinearLayout>

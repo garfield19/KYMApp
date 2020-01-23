@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:layout_margin="20dp"
+
+    android:gravity="center"
+    tools:context="ng.com.babbangona.kymapp.EnterBGNumber">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/card"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Enter BG Number Below"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="(The number in front of the BG Card member was given)"
+        />
+
+    <!-- <com.babbangona.bg_app.PrefixEditText
+        android:padding="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:tag="BG"
+        android:maxLines="1"
+        android:maxLength="16"
+        android:inputType="text"
+        android:id="@+id/bg_number_text"/> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t1"
+                android:inputType="number"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t2"
+                android:inputType="number"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="/"
+                android:gravity="center"
+                android:focusable="false"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t3"
+                android:gravity="center"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t4"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t5"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t6"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t7"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:inputType="number"
+                android:id="@+id/t8"
+                android:gravity="center"
+                android:hint="-" />
+            <EditText
+                android:background="@drawable/text_box"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:id="@+id/t9"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="-" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/finish_verification"
+        style="@style/allHomeButtons"
+        android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Save"
+        android:background="@drawable/green_background_button"
+        />
+
+
+
+</LinearLayout>

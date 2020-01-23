@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_down"
+            android:visible="false"
+            android:icon="@drawable/ic_cloud_computing"
+            android:title="Sync Down" />
+        <item
+            android:id="@+id/nav_up"
+            android:icon="@drawable/ic_upload"
+            android:title="Sync" />
+
+    </group>
+
+
+    <item android:title="Extract">
+        <menu>
+            <item
+                android:id="@+id/extract_pic"
+                android:icon="@drawable/ic_extract_button"
+                android:title="Extract Pictures" />
+        </menu>
+    </item>
+
+</menu>
